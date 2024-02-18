@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+        
+{% block main %}
+<div class="container">    
+    <div class="first">
+        <img src="{{ url_for('static', filename='girl-in-pink.png') }}" alt="My Image"/>
+        <h1>Davia Howard<h1>
+        <h6>@daviaser<h6>
+        <p>Kingston, Jamaica<p>
+        <p>Joined: {{ format_date }}</p>
+    </div>
+    <div class="second">
+        <p>Art is my passion, the world is my canvas. Just a 20 year old who loves all things creative. One of the ways that I express this is through Web Development. I hope to continue spreading this passion while exploring the world.<p>
+    </div>
+    <div class="profile-stats">
+        <div class="stat1">
+            <h6>85<h6>
+            <p>Posts<p>
+        </div>
+        <div class="stat2">
+            <h6>10k<h6>
+            <p>Followers<p>
+        </div>
+        <div class="stat3">
+            <h6>1000<h6> 
+            <p>Following<p>
+        </div>
+    </div>
+    <div class="btn">
+        <button>Follow</button>
+    </div>
+</div>
+{% endblock %}
+        
+    

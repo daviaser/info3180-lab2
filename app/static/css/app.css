@@ -1,3 +1,77 @@
 body {
     padding-top: 5rem;
 }
+.first {
+    max-width: 650px;
+    margin: 10px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgb(97, 170, 195) 100%, white 30%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+}
+
+.second{
+    margin:10px;
+    padding:5px;
+    text-align: center;
+    color:rgb(92, 89, 89) ;
+}
+.profile-stats h6{
+    font-weight: bold;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.first h1{
+    margin: 5px 0;
+    font-weight: bolder;
+    text-shadow: 2px 0px 2px lightgray;
+    color: white; /* Adjusted color to white */
+}
+
+.first p {
+    margin: 5px;
+    color: rgb(92, 89, 89);
+}
+.profile-stats p{
+    color:rgb(157, 153, 153);
+    font-weight:normal;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+      
+}
+.stat1, .stat2, .stat3{
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button {
+    padding: 5px 50px;
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(62, 160, 199);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.btn button:hover {
+    background-color: rgb(175, 157, 240);
+}
